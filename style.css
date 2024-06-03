@@ -1,0 +1,225 @@
+#header{
+    height: 90vh;
+    width: 100%;
+    background-image: url("/Assets/images-509/images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.img-overlay{
+    height: 90vh;
+    width: 100%;
+  background: linear-gradient(-60deg,rgba(21, 232, 119, 0.895), rgba(77, 132, 236, 0.763));
+}
+.anu:hover{
+  color: rgb(157, 13, 13);
+}
+.anu{
+  color: white;
+  margin-left: 20px;
+}
+.mouni{
+  margin-left: 35px;
+}
+.bird{
+  margin-left: 330px;
+  color: white;
+}
+.bird:hover{
+  color: rgb(157, 13, 13);
+}
+.twitt:hover{
+  color: rgb(157, 13, 13);
+}
+.sign:hover{
+  background-color: gray;
+  color: white;
+  border:2px solid gray;
+}
+.sign{
+  margin-left: 30px;
+}
+
+.twitt{
+  margin-left: 20px;
+  color: white;
+}
+.bgc{
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.head{
+  margin-top: 230px;
+  color: white;
+}
+.mini{
+  margin-left: 30px;
+color: white;
+
+}
+.mini1{
+  margin-left: 160px;
+  color: white;
+ 
+
+}
+.frame{
+  margin-top: 180px;
+}
+.second{
+  /* border: 2px solid red; */
+  height: 380px;
+  width: 100%;
+  position: relative;
+  margin-top: 620px;
+
+}
+/* .dot{
+  font-size: 60px;
+  color: gray;
+  margin-top: -60px;
+} */
+.section3{
+  background-color: rgba(235, 231, 233, 0.859);
+  height: 900px;
+  width: 100%;
+  /* border: 2px solid red; */
+  
+}
+.dot1{
+  font-size: 80px;
+  color: rgba(177, 173, 173, 0.823);
+  margin-top: -80px;
+}
+.section3 h2,p{
+ text-align: center;
+}
+.para{
+  font-size: 20px;
+}
+.first{
+  font-size: 13px;
+
+}
+.clock{
+  font-size: 13px;
+margin-top: 50px;
+}
+.pp{
+  margin-right: 20px;
+}
+.board{
+  border: 2px solid transparent;
+  padding: 8px 10px 8px 10px ;
+}
+.board:hover{
+  background-image: linear-gradient(to right,rgb(83, 83, 245) ,rgb(7, 188, 7));
+}
+.hei{
+  height: 328px;
+  
+}
+.grid{
+  margin-top: 30px;
+}
+
+.top{
+  text-align: center;
+}
+.top p{
+  font-size: 90px;
+  color: rgb(168, 166, 166);
+  margin-top: -90px;
+}
+.top h3{
+  margin-top: 30px;
+}
+.section5{
+  margin-top: 50px;
+  text-align: center;
+  height: 650px;
+  width: 100%;
+  background-image: linear-gradient(100deg, rgb(65, 65, 238),rgb(9, 177, 9));
+}
+.section5 p{
+  font-size: 90px;
+  color: rgb(168, 166, 166);
+  margin-top: -90px;
+}
+.cont{
+  padding-top: 40px;
+  color: white;
+}
+.jin{
+  height: 330px;
+  width: 110%;
+  border-radius: 220px;
+
+}
+.logg input{
+  height: 50px;
+  width: 40%;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.option{
+  height: 50px;
+  width: 40%;
+  border-radius: 5px;
+  color: gray;
+}
+.area{
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: gray;
+}
+.bt{
+  margin-right: 450px;
+  width: 25%;
+  margin-top: 20px;
+}
+.footer{
+  /* border: 2px solid red; */
+  height: 400px;
+  background-color: #3d3d3d;
+  color: white;
+}
+.icn{
+  margin-left: 20px;
+}
+/* ----------------hover ------------------------*/
+.wrapper {
+  height: 60vh;
+  width: 100%;
+}
+.image{
+  position: relative;
+  
+}
+.content{
+  position: absolute;
+  padding-top: 80px;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.629);
+  width: 90%;
+  height: 249px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content:hover{
+ opacity: 1;
+}
+.content >*{
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.content:hover >*{
+  transform: translateY(0px);
+  
+}
